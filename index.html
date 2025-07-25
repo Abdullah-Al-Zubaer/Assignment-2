@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
     <title>Assignment 2</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
                 <img src="./assets/logo.png" alt="Not available">
             </div>
             <ul class="list-none flex justify-between gap-12">
-                <li class="no-underline text-gray-900 text-2xl hidden sm:block"><a href="">Home</a></li>
+                <li class="no-underline font-bold text-gray-900 text-2xl hidden sm:block"><a href="">Home</a></li>
                 <li class="no-underline text-gray-500 text-2xl hidden sm:block"><a href="">Shope</a></li>
                 <li class="no-underline text-gray-500 text-2xl hidden sm:block"><a href="">About US</a></li>
-                <li class="no-underline text-gray-900 text-2xl"><a href=""></a>Cart($56)</li>
+                <li class="no-underline font-bold text-gray-900 text-2xl"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
             </ul>
         </nav>
         <section class="mt-28 flex flex-col-reverse sm:flex-row gap-8">
@@ -169,12 +170,43 @@
             </p>  
             <div class="flex gap-0 w-2/3">
                 <input class="bg-white rounded-none border-0 w-full pl-6" type="email" placeholder="Write email">
-                <button class="bg-orange-500 text-xl text-white px-14 py-4">Subscribe</button>
+                <button class="bg-orange-500 text-xl text-white px-4 sm:px-14 py-4">Subscribe</button>
             </div>                  
         </div>
     </div>
-    <footer>
-
+    <footer class="mx-4 sm:max-w-6xl sm:my-0 sm:mx-auto py-12 text-gray-400">
+        <section class="sm:flex sm:gap-28">
+            <div>
+                <img class="my-4" src="./assets/logo.png" alt="">
+                <p class="my-4">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+                </p>
+            </div>
+            <div class="mt-8">
+                <ul class="flex flex-col gap-8">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href=""></a>Blog</li>
+                    <li><a href=""></a>FAQ</li>
+                    <li><a href=""></a>Contact Us</li>
+                </ul>
+            </div>
+            <div class="mt-8">
+                <ul class="flex flex-col gap-8">
+                    <li><a href=""></a>Features</li>
+                    <li><a href=""></a>Pricing</li>
+                    <li><a href=""></a>Privacy Policy</li>
+                    <li><a href=""></a>Terms of Service</li>
+                    <li><a href=""></a>Help Center</li>
+                </ul>
+            </div>
+            <div class="mt-5 flex gap-6">
+                <img class="h-9 w-9" src="./assets/icon-linkedin.png" alt="">
+                <img class="h-9 w-9" src="./assets/icon-twitter.png" alt="">
+                <img class="h-9 w-9" src="./assets/icon-facebook.png" alt="">
+                <img class="h-9 w-9" src="./assets/icon-youtube.png" alt="">
+            </div>
+        </section>
     </footer>
 </body>
 </html>
